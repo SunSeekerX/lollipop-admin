@@ -26,15 +26,11 @@ yarn build:stage
 yarn build:prod
 ```
 
-
-
 ## 内置功能
 
 - 区块链
   - 钱包地址生成
   - 助记词生成（12 位 24 位）
-
-
 
 ## 问题记录
 
@@ -43,13 +39,8 @@ yarn build:prod
    2. 尝试使用 vue-cli+vue3 重建项目，难度大，并且 vuecli5 webpack 没有加入腻子补丁，网上文章较少，最终决定使用 vue2 版本的 ruoyi
    3. vue2+vue-cli 作为工业级别的打包工具还是有其存在的道理,vue3+vite 太新了
 
-
-
 ## 鸣谢
-
-## 
 
 项目基于 [https://github.com/yangzongzhuan/RuoYi-Vue](https://github.com/yangzongzhuan/RuoYi-Vue)
 
 以太坊靓号生成（vanity-eth）：[https://github.com/bokub/vanity-eth](https://github.com/bokub/vanity-eth)
-

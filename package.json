@@ -9,7 +9,8 @@
     "build:prod": "vue-cli-service build",
     "build:stage": "vue-cli-service build --mode staging",
     "dev": "vue-cli-service serve",
-    "preview": "node build/index.js --preview"
+    "preview": "node build/index.js --preview",
+    "gc": "git add -A && git-cz && git pull && git push"
   },
   "dependencies": {
     "@riophae/vue-treeselect": "0.4.0",

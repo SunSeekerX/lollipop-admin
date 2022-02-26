@@ -124,5 +124,3 @@ async function handleCopyMnemonic(mnemonic) {
   }
 }
 </script>
-
-<style></style>
