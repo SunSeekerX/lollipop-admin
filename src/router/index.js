@@ -174,7 +174,7 @@ export const dynamicRoutes = [
 ]
 
 export default new Router({
-  mode: 'hash',
+  mode: 'history',
   scrollBehavior: () => ({ y: 0 }),
   routes: constantRoutes
 })
