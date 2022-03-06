@@ -6,6 +6,7 @@
   "author": "SunSeekerX",
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
+    "build:dev": "vue-cli-service build --mode development",
     "build:prod": "vue-cli-service build",
     "build:stage": "vue-cli-service build --mode staging",
     "dev": "vue-cli-service serve",
