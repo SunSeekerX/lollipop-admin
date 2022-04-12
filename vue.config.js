@@ -15,7 +15,6 @@ const port = process.env.port || process.env.npm_config_port || 6553 // 端口
 // vue.config.js 配置说明
 //官方vue.config.js 参考文档 https://cli.vuejs.org/zh/config/#css-loaderoptions
 // 这里只列一部分，具体配置参考文档
-console.log('process.env.NODE_ENV>>>', process.env.NODE_ENV);
 module.exports = {
   parallel: false, // disable thread-loader, which is not compactible with this plugin
   // 部署生产环境和开发环境下的URL。
